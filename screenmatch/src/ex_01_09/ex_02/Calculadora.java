@@ -1,4 +1,4 @@
-package ex_01_09.ex_01;
+package ex_01_09.ex_02;
 
 public class Calculadora {
     public int dobro(int numero) {
