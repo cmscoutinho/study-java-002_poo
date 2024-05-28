@@ -8,6 +8,7 @@ public class Principal {
         meuFilme.setNome("O Poderoso Chefão");
         meuFilme.setAnoDeLancamento(1970);
         meuFilme.setDuracaoEmMinutos(180);
+        meuFilme.setIncluidoNoPlano(true);
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
