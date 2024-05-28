@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.model;
+
 public class Filme {
     String nome;
     int anoDeLancamento;
@@ -23,4 +25,5 @@ public class Filme {
     double pegaMedia() {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
+
 }
