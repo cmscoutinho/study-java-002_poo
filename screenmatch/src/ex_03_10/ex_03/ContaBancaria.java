@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.ex_03_10.ex_03;
+package ex_03_10.ex_03;
 
 public class ContaBancaria {
     private double saldo = 0.0;

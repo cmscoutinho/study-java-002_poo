@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.ex_03_10.ex_02;
+package ex_03_10.ex_02;
 
 public class Principal {
     public static void main(String[] args) {
