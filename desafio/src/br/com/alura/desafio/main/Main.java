@@ -1,5 +1,6 @@
 package br.com.alura.desafio.main;
 
+import br.com.alura.desafio.model.MinhasPreferidas;
 import br.com.alura.desafio.model.Musica;
 import br.com.alura.desafio.model.Podcast;
 
@@ -28,5 +29,10 @@ public class Main {
         for (int i = 0; i < 1000; i++) {
             meuPodcast.curtir();
         }
+
+        MinhasPreferidas preferidas = new MinhasPreferidas();
+        preferidas.inclui(minhaMusica);
+        preferidas.inclui(meuPodcast);
+
     }
 }
